@@ -1,0 +1,135 @@
+body, html {
+	height: 100%;
+}
+
+#wrapper {
+	min-height: 100%;
+	position: relative;
+	height: 100%;
+}
+
+#header {
+	position: absolute;
+	top: 0;
+	width: 100%;
+	height: 50px;
+	display: block;
+	background-color: white; 
+}
+
+#header li a {
+	display: inline-block;
+	line-height: 30px;
+	height: 30px;
+	padding: 5px 8px;
+}
+
+#hdC {
+	padding: 0 8px;
+	float: right;
+}
+
+#hdBell {
+	padding-right: 8px;
+	padding-top: 5px;
+	float: right;
+}
+
+#hdSq {
+	padding-right: 8px;
+	padding-top: 8px;
+	float: right;
+}
+
+#hdIm {
+	float: right;
+}
+
+#hdGm {
+	float: right;
+}
+
+#logo {
+	float: right;
+}
+
+#imgLogo {
+	position: absolute;
+    margin: auto;
+    top: -200px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+#searchText {
+	width: 33%
+	height: 50px;
+	background-color: gray;
+}	
+
+#footer {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	display: block;
+	background-color: #f2f2f2;
+	clear: both;
+	height: 40px;
+	/*color: #8a8b8e;
+	text-align: center;
+	font-family: Arial;
+	font-size: 1em; */	
+}
+
+a {
+	position: relative;
+	text-decoration: none;
+	color: #4A474B;
+}
+
+a:visited {
+	color: #4A474B
+}
+
+#footer li a {
+	display: inline-block;
+	line-height: 30px;
+	height: 30px;
+	padding: 0 10px;
+}
+
+#ftAd {
+	float: left;
+}
+
+#ftBu {
+	float: left;
+}
+
+#ftAbt {
+	float: left;
+}
+
+#ftPr {
+	float: right;
+}
+
+#ftTe {
+	float: right;
+}
+
+#ftSe {
+	float: right;
+}
+
+#ftUse {
+	float: right;
+}
+
+
+
+
+
+
+
