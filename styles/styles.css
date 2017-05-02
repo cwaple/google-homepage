@@ -68,6 +68,15 @@ body, html {
 	background-color: gray;
 }	
 
+#googleSearch {
+	position: absolute;
+    margin: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
 #footer {
 	position: absolute;
 	bottom: 0;
