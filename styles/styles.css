@@ -82,12 +82,16 @@ body, html {
 
 #searchButton {
 	float: left;
-	left: 20%;
+	clear: left;
+	margin-top: 30px;
+	margin-left: 75px;
 }
 
 #luckyButton {
 	float: right;
-	right: 20%;
+	clear: right;
+	margin-top: 30px; 
+	margin-left: 50px;
 }
 
 #footer {
