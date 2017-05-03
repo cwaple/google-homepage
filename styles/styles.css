@@ -63,18 +63,31 @@ body, html {
 }
 
 #searchText {
-	width: 33%
-	height: 50px;
-	background-color: gray;
+	width: 100%;
+	background-color: white;
 }	
 
 #googleSearch {
 	position: absolute;
     margin: auto;
-    top: 0;
-    left: 0;
-    right: 0;
+    top: 50%;
+    left: 33%;
+    right: 33%;
     bottom: 0;
+}
+
+#searchSubmit {
+	display: inline-block;
+}
+
+#searchButton {
+	float: left;
+	left: 20%;
+}
+
+#luckyButton {
+	float: right;
+	right: 20%;
 }
 
 #footer {
